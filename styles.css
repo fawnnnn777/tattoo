@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes title {
+    0%{
+        background-color: rgb(0,0,0, 0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+        background-color: rgb(0,0,0, 0.5);
+    }
+    100%{
+        opacity: 1;
+        background-color: rgb(0,0,0, 1);
+
+    }
+}
+
+.title{
+    font-family: 'Rakkas', serif;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    width: 100vw;
+    font-size: 120px;
+    display: none;
+    background-color: black;
+    color: white;
+}
+
+body{
+    height: 150vh;
+    background-color: black;
+}
+
+.skull-top{
+    width: 40%;
+}
+
+.logo-container{
+    height: 48.8vh;
+}
+
+.skull-botton{
+    width: 40%;
+}
+
+
+.logo-container-botton{
+    height: 50vh;
+}   
+
+
